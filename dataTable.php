@@ -13,8 +13,8 @@ $stmt->store_result();  $stmt->bind_result($id,$dept,$note);
     <title>test data table</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" rel="stylesheet">
     <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-  <script src="js/data.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="js/data.js"></script>
     <script src="js/b4-dataTable.js"></script>
 
 </head>
@@ -41,9 +41,9 @@ $stmt->store_result();  $stmt->bind_result($id,$dept,$note);
 </div>
 
 <script>
-  $(document).ready(function() {
-      $('#example').DataTable();
-  } );
+    $(document).ready(function() {
+        $('#example').DataTable();
+    } );
 </script>
 </body>
 </html>
